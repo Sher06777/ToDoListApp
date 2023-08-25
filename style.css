@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./components/img/sky.jpg);
+    background-size: cover;
+}
+
+.todo-list-item {
+    background-color: #252e33;
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.todo {
+    width: 500px;
+    margin: 150px auto;
+}
+
+.form input {
+    background-color: #181a19;
+    border: none;
+    outline: none;
+    color: aqua;
+    width: 80%;
+    padding: 10px;
+    border-radius: 40px 0 0 40px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.form button {
+    padding: 10px;
+    width: 20%;
+    border: none;
+    border-radius: 0 40px 40px 0;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
